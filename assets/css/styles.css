@@ -1,0 +1,64 @@
+html{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+}
+
+body{
+    background: #f2f2f2;
+}
+
+.social a,.social a:hover,.social a:active,.social a:focus{
+    color:black;
+}
+
+.head{
+    background: #f1f1f1;
+}
+
+#outer {
+    float: left;
+    width: 600px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1024px) {
+    #outer {
+        float: left;
+        width: 260px;
+        overflow: hidden;
+        white-space: nowrap;
+        display: inline-block;
+    }
+}
+
+#left-button {
+    float: left;
+    width: 30px;
+    text-align: center;
+    margin-top: 11px;
+}
+
+#right-button {
+    float: left;
+    width: 30px;
+    margin-top: 11px;
+    text-align: center;
+
+}
+
+#outer a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: red;
+}
+
+#inner:first-child {
+    margin-left: 0;
+}
+
+
+.hide {
+    display: none;
+}
